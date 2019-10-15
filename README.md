@@ -17,7 +17,7 @@ npm install
 ${rendertron_dir}/src/rendertron.ts
 
 ```javascript
-const {RedisCache} = await import('./redis-cache');
+const {RedisCache} = await import('./RedisCache');
 this.app.use(new RedisCache().middleware());
 ```
 
